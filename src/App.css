@@ -1,0 +1,30 @@
+:root {
+  --clr-brand: #344097;
+  --clr-gray: #7f829c;
+}
+
+.highlight {
+  position: relative;
+}
+
+.highlight:after {
+  position: absolute;
+  content: url(/src/assets/images/contact-vector.svg);
+  height: 10px;
+  left: 0;
+  bottom: 15px;
+}
+
+/* portfolio */
+.brand-name:after {
+  position: absolute;
+  content: url(/src/assets/images/brand-vector.svg);
+  height: 10px;
+  left: 0;
+  bottom: 8px;
+}
+
+/* faq */
+.accordion:not(:first-child) {
+  margin-top: 2rem;
+}
